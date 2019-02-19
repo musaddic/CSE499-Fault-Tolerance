@@ -1,0 +1,1 @@
+#### **A complete fault tolerance mechanism for scientific application using spot instance for cloud computing system.**
