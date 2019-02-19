@@ -1,19 +1,19 @@
 ## A complete fault tolerance mechanism for scientific application using spot instance for cloud computing system.
 
-##### Background Information, Issues  and Current Solutions
+### Background Information, Issues  and Current Solutions
 
 Most business use server with fixed computing resources such as Memory, Hard Disk, Processor etc. However, many businesses are shifting towards cloud where resources can be attached to the server on demand based which can deduct costs associated with unused resources. Although this on-demand rapid access to computing resources doesn’t require large upfront investments in hardware, most businesses who use this cloud computing services, do this process manually and inefficiently.
 
 However, it is possible to build completely reliable, fault-tolerant and highly available system using modern cloud service providers like AWS. For example, AWS provides infrastructure building blocks which by themselves are fault-tolerant. But it is possible to achieve higher system availability and fault tolerance by using these infrastructures in such an arrangements and patterns so that any system failures such as massive DDOS attack, hard drives failures, power supplies failures, racks disruption etc. can be avoided very easily. In this research, I will propose a cloud infrastructure model which can use to achieve high availability and fault-tolerance for computing server and build the server model practically from scratch and test it with high traffic loads and stress script.
 
 
-##### Importance of solving this problem
+### Importance of solving this problem
 
 Achieve high availability and fault-tolerance in cloud computing with minimum expenditures and thus saving millions of dollar each year for hundreds of thousands businesses who are using computing server for various reasons.
 
 
 
-##### The Main aims of this research
+### The Main aims of this research
 
 Just moving a web computing server into the cloud does not make it fault tolerant or highly available.  In this research, I’ll propose a cloud infrastructure model for in combinations with different availability zones, load balancers, elastic IP, server instances, auto scaling, cloud watch etc. to encourage business to achieve fault tolerant system for their business which will provide following benefits to the business:
 
@@ -27,7 +27,7 @@ Just moving a web computing server into the cloud does not make it fault toleran
 When traffic is low, cloud watch will send notification and unused instances will auto destroy themselves to reduce cloud service bills. 
 
 
-##### The questions which need to be addressed in this research 
+### The questions which need to be addressed in this research 
 
 RQ1. Which kind of service / model is being used by the businesses currently.
 
@@ -48,13 +48,13 @@ RQ7.  Study of various factors why business should switch to this model.
 RQ8. Building a practical server based on this model in AWS and later test with load and stress.
 
 
-#####	Current best solutions in cost aware Auto scaling mechanism
+###	Current best solutions in cost aware Auto scaling mechanism
 
 Zhang et al. (2016) , Kllapi et al. (2011) proposed an auto scaling schedule based framework
 where optimized time and cost of independent cloud workflow execution is considered. According to Zhang’s scaling strategy, types of multiple cloud resources and cloud configuration combined of those resources are given high priority when designing the auto-scaling mechanism. Aslanpour el at. (2017) has proposed a solution for scaling of application equipping Suprex executor mechanism. This approach handles its operation following a MAPE concept with an strategy to save costs and limit exploitations of surplus resources. 
 
 
-##### Limitation of current best solution
+### Limitation of current best solution
 
 Although schedule based cloud workflow execution introduces unique optimization strategy for scaling supporting multiplication of EC2 based on the demand of load balancing and destroying them when needed, is not price efficient in occasion of new types of DDOS attack like Yo-Yo or very irregular traffic load pattern issues.
 
@@ -63,7 +63,7 @@ New kind of DDOS attack (Yo-Yo) or any irregular traffic pattern incur huge cost
 
 
 
-##### Some of the researches on this area
+### Some of the researches on this area
 
 References:
 
