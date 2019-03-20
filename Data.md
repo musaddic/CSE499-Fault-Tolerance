@@ -10,4 +10,4 @@ Spot Fleet offers various data related to disruption events, current price of Sp
 
 Amazon EC2 Spot Instances offer spare compute capacity available in the AWS cloud at steep discounts compared to On-Demand instances. Spot Instances enable you to optimize your costs on the AWS cloud and scale your application's throughput up to 10X for the same budget.
 
-Using Spot Instance instead of EC2 instances at savings of up to 90% the On-Demand price.s
+Using Spot Instance instead of EC2 instances at savings of up to 90% the On-Demand price.
