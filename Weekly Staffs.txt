@@ -1,0 +1,20 @@
+Week 1:
+We formed our group and discussed on some project ideas.
+
+Week 2:
+We finally selected the topic for our project and discussed it with sir.
+
+Week 3:
+We prepared a draft proposal of our project and presented it in the class.
+
+Week 4:
+Talked with sir with details process of our project.
+
+Week 5:
+“What is our actual solving point in our project “is uploaded briefly.
+
+Week 6: 
+We decided to start our work with JavaScript. Installed Note Js.
+
+Week 7: 
+Sir asked us to create a fake fault and upload it in Git and we worked on that.
